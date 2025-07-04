@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BitComponent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BitComponent from './components/BitComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BitComponent
   }
 }
 </script>
